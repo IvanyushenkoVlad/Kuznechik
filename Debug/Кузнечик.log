@@ -1,0 +1,17 @@
+﻿  Encrypting.cpp
+c:\users\владислав\documents\практика кпмг\encryptor-with-kuznyechik-master\encrypting.cpp(101): warning C4244: инициализация: преобразование "std::streamoff" в "size_t", возможна потеря данных
+c:\users\владислав\documents\практика кпмг\encryptor-with-kuznyechik-master\modes.hpp(21): warning C4018: <: несоответствие типов со знаком и без знака
+  c:\users\владислав\documents\практика кпмг\encryptor-with-kuznyechik-master\modes.hpp(14): note: при компиляции функции-члена "<Нет данных>" класса <Нет данных>
+  c:\users\владислав\documents\практика кпмг\encryptor-with-kuznyechik-master\encrypting.cpp(115): note: см. ссылку на создание экземпляров функции шаблон при компиляции "void CFB_Mode<Kuznyechik>::encrypt(const ByteBlock &,ByteBlock &) const"
+  c:\users\владислав\documents\практика кпмг\encryptor-with-kuznyechik-master\encrypting.cpp(114): note: см. ссылку на создание экземпляров класса шаблон при компиляции "CFB_Mode<Kuznyechik>"
+c:\users\владислав\documents\практика кпмг\encryptor-with-kuznyechik-master\modes.hpp(37): warning C4018: <: несоответствие типов со знаком и без знака
+  c:\users\владислав\documents\практика кпмг\encryptor-with-kuznyechik-master\modes.hpp(30): note: при компиляции функции-члена "<Нет данных>" класса <Нет данных>
+  c:\users\владислав\documents\практика кпмг\encryptor-with-kuznyechik-master\modes.hpp(47): note: см. ссылку на создание экземпляров функции шаблон при компиляции "void CFB_Mode<Kuznyechik>::decrypt_with_iv(const ByteBlock &,ByteBlock &,const ByteBlock &) const"
+  c:\users\владислав\documents\практика кпмг\encryptor-with-kuznyechik-master\modes.hpp(7): note: при компиляции функции-члена "<Нет данных>" класса <Нет данных>
+  c:\users\владислав\documents\практика кпмг\encryptor-with-kuznyechik-master\encrypting.cpp(114): note: см. ссылку на создание экземпляров функции шаблон при компиляции "CFB_Mode<Kuznyechik>::CFB_Mode(const CipherType &,const ByteBlock &)"
+          with
+          [
+              CipherType=Kuznyechik
+          ]
+  Кузнечик.vcxproj -> C:\Users\Владислав\Documents\Visual Studio 2015\Projects\Кузнечик\Debug\Кузнечик.exe
+  Кузнечик.vcxproj -> C:\Users\Владислав\Documents\Visual Studio 2015\Projects\Кузнечик\Debug\Кузнечик.pdb (Partial PDB)

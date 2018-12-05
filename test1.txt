@@ -1,0 +1,3 @@
+﻿KEY=8899aabbccddeeff0011223344556677fedcba98765432100123456789abcdef
+IV=abcdef12345600dacdef94756eeabefa
+INPUT=a21f
